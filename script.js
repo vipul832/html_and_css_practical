@@ -4,13 +4,15 @@ $(".owl-carousel").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 2,
+      items: 1,
     },
     576: {
       items: 2,
+      margin: 10,
     },
     768: {
       items: 3,
+      autoWidth: true,
     },
     992: {
       items: 4,
